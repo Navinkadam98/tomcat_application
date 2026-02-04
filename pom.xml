@@ -297,13 +297,13 @@
     <distributionManagement>
 	    <repository>
 	        <id>nexus</id>
-	        <name>demo</name>
-	        <url>http://100.31.115.18:8081/repository/demo//</url>
+	        <name>demo-release</name>
+	        <url>http://100.31.115.18:8081/repository/demo-release//</url>
 	    </repository>
 	    <snapshotRepository>
 	        <id>nexus</id>
-	        <name>demo-release</name>
-	        <url>http://100.31.115.18:8081/repository/demo-release//</url>
+	        <name>demo</name>
+	        <url>http://100.31.115.18:8081/repository/demo//</url>
 	    </snapshotRepository>
     </distributionManagement>
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
